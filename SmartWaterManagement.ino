@@ -10,10 +10,10 @@ void callback(char* topic, byte* payload, unsigned int payloadLength);
 const char* ssid = "";
 const char* password = "";
 
-#define ORG "q9hbmx"
-#define DEVICE_TYPE "NodeMCU"
-#define DEVICE_ID "12345"
-#define TOKEN "123456789"
+#define ORG ""
+#define DEVICE_TYPE ""
+#define DEVICE_ID ""
+#define TOKEN ""
 //-------- Customise the above values --------
  //include device credentials
 char server[] = ORG ".messaging.internetofthings.ibmcloud.com";
