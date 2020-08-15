@@ -7,8 +7,8 @@ Servo myservo;
 #define echo D6 
 void callback(char* topic, byte* payload, unsigned int payloadLength);
 //-------- Customise these values -----------
-const char* ssid = "Android On5";
-const char* password = "17791779";
+const char* ssid = "";
+const char* password = "";
 
 #define ORG "q9hbmx"
 #define DEVICE_TYPE "NodeMCU"
